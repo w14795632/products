@@ -13,3 +13,6 @@ while True:
 	#可簡寫為 products.append([nema, price])
     ##--------------------
 print(products)
+
+for p in products:
+	print (p[0], '的價格是', p[1])
